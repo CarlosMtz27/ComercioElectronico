@@ -1,11 +1,9 @@
 import './App.css';
-import barraNavegacion from './componentes/BarraNavegacion';
-
+import Home from './paginas/Home';
 function App() {
   return (
     <div className="App">
-      <h1>Comercio Electronico</h1>
-      <barraNavegacion />
+      <Home/>
     </div>
   );
 }

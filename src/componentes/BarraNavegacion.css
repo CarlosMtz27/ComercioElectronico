@@ -1,0 +1,20 @@
+ul{
+    background-color: black;
+    margin-top: 0;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:yellow;
+}
