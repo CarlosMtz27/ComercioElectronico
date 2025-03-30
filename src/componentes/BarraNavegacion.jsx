@@ -1,16 +1,22 @@
 //jsx: extensión de JavaScript que permite escribir código similar a HTML dentro de un archivo JavaScript
 import React from "react";
-import "./BarraNavegacion.css"
+import "../css/BarraNavegacion.css"
+import { Link } from "react-router-dom";
+import {Nav } from 'react-bootstrap';
 function BarraNavegacion(){
 
     return(
-        <div>
+        <div className="App">
            <nav>
-                <ul>
-				    <li><a href="index.html">Home</a></li>
-				    <li><a href="registro.html">Registro</a></li>
-				    <li><a href="login.html">Login</a></li>
-			    </ul>
+                <Nav.Link as = {Link} to="/">
+                    Home
+                </Nav.Link>
+                <Nav.Link as = {Link} to="/Login">
+                    Login
+                </Nav.Link>
+                <Nav.Link as = {Link} to="/Registro">
+                    Registro
+                </Nav.Link>
 		    </nav>
         </div>
     );

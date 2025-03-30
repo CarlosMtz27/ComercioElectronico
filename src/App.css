@@ -1,15 +1,15 @@
 .App {
   text-align: center;
   color: aliceblue;
-  background-color: black;
   padding: 15px;
+  background-color: rgb(24, 106, 173);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+/*
 .App-header {
   background-color: #133a87;
   min-height: 100vh;
@@ -19,11 +19,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+}*/
 
 .App-link {
-  color: #61dafb;
+  color: #1c6377;
 }
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,4 +39,15 @@
 
 h1{
   text-align: center;
+}
+
+
+a{
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.list{
+  padding: 15px;
+  font-size:x-large;
 }
