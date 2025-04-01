@@ -1,0 +1,16 @@
+
+form{
+    text-align: center;
+    display: inline-block;
+
+}
+
+label{
+    font-size: larger;
+}
+
+input{
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+}

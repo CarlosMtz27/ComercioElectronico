@@ -1,6 +1,6 @@
 import './App.css';
 import './componentes/BarraNavegacion'
-import {Route, Routes, BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import Rutas from './componentes/Rutas';
 import Login from './paginas/Login';
 import Registro from './paginas/Registro';
@@ -23,6 +23,7 @@ function App() {
         </nav>
       </div>
     </Rutas>
+    
   );
 }
 
